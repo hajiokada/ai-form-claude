@@ -1,0 +1,6 @@
+[
+  { "id": "claude-sonnet-4-6", "label": "Claude Sonnet 4.6", "provider": "anthropic", "apiModel": "claude-sonnet-4-6" },
+  { "id": "claude-opus-4-6",   "label": "Claude Opus 4.6",   "provider": "anthropic", "apiModel": "claude-opus-4-6" },
+  { "id": "gpt-5",             "label": "GPT-5",             "provider": "openai",    "apiModel": "gpt-5" },
+  { "id": "gemini-2.5-pro",    "label": "Gemini 2.5 Pro",    "provider": "google",    "apiModel": "gemini-2.5-pro" }
+]

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
+
+.prose-result :where(h1,h2,h3,h4) { @apply font-semibold mt-4 mb-2; }
+.prose-result h1 { @apply text-xl; }
+.prose-result h2 { @apply text-lg; }
+.prose-result p { @apply my-2 leading-relaxed; }
+.prose-result ul { @apply list-disc pl-6 my-2; }
+.prose-result ol { @apply list-decimal pl-6 my-2; }
+.prose-result code { @apply bg-slate-100 px-1 rounded text-sm; }
+.prose-result pre { @apply bg-slate-900 text-slate-100 p-3 rounded overflow-x-auto my-3; }
+.prose-result pre code { @apply bg-transparent text-inherit p-0; }
+.prose-result blockquote { @apply border-l-4 border-slate-300 pl-3 text-slate-600 my-2; }
+.prose-result table { @apply border-collapse my-2; }
+.prose-result th, .prose-result td { @apply border border-slate-300 px-2 py-1; }
